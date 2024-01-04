@@ -7,7 +7,8 @@ import { IoCloudUploadOutline } from "react-icons/io5"
 function NavBar() {
     return (
         <>
-            <div className="nav-bar">
+        <div className="navBar">
+        <div className="nav-bar">
                 <div className="nav-items">
                     <IoHomeOutline className='Home-Icon' />
                     <span>Home</span>
@@ -25,6 +26,8 @@ function NavBar() {
                     <span>Log Out</span>
                 </div>
             </div>
+        </div>
+        
         </>
     )
 }
